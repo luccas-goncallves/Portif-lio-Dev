@@ -1,0 +1,65 @@
+.profile-pic {
+  width: 112px;
+  height: 112px;
+}
+
+.width-max-680 {
+  max-width: 680px;
+
+  & p:nth-child(3){
+
+    font: var(--text-title-lg);
+  }
+
+  & p:nth-child(4){
+    font: var(--text-sm);
+    margin-top: 20px;
+
+}
+
+.subtitle {
+  font: var(--text-subtitle);
+}
+
+.color-gray-500 {
+  color: var(--color-gray-500);
+}
+
+.red {
+  color: var(--color-red);
+}
+
+.profile {
+  margin-bottom: 56px;
+position: relative;
+}
+
+.icon {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+}
+
+.title-sm{
+  font: var(--text-title-sm);
+  color:var(--color-gray-600);
+}
+
+.text-sm {
+  font: var(--text-sm);
+  color: var(--color-gray-500);
+}
+
+.red {
+  color: var(--color-red);
+}
+
+.subtitle {
+  font: var(--text-subtitle);
+}
+
+.title-md {
+  font: var(--text-title-md);
+  color: var(--color-gray-600);
+}
