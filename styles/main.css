@@ -6,7 +6,6 @@
   margin-top: 183px;
   gap: 56px;
   align-items: center;
-  border: solid ;
 
 
 .content {
@@ -22,7 +21,7 @@
     transition-duration: 0.5s;
     transition-timing-function: 0.5s;
   }
-
+    
   &>div {
     background-color: var(--color-gray-300);
     border: solid 1px var(--color-gray-300);
@@ -33,20 +32,23 @@
     padding-inline: 12px;
     transition-duration: 0.5s;
     transition-timing-function: 0.5s;
-    
-    &>img {
+
+    & > a{
+      text-decoration: none;
+      &>img {
+        width: 306px;
+        height: 156px;
+        border-radius: 8px;
+        margin-bottom: 20px;
+        margin-top: 12px;
+      }
       
-      width: 306px;
-      height: 156px;
-      border-radius: 8px;
-      margin-bottom: 20px;
-      margin-top: 12px;
-    }
-    &>span{
-      display: flex;
-      flex-direction: column;
-      gap: 8px;
-  
+      &>span{
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      
     }
   }
 }
