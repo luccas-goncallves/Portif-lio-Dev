@@ -1,9 +1,12 @@
 #intro {
-  background-image: url(../assets/images/Background_Intro.png);
+  background-image: url(../assets/images/Background_Intro_3.png);
+  background-size: 100%;
+
+  background-position: cover;
+  background-repeat: no-repeat;
   padding-inline: 163px;
   padding-top: 120px;
-  padding-bottom: 183px;
-  height: 447px;
+  height: px;
   display: flex;
   flex-direction: column;
   gap: 80px;
