@@ -5,6 +5,7 @@
   align-items: center;
   background-image: url(../assets/images/Background_Contacts_3.png);
   background-position: cover;
+  background-size: 100%;
   background-repeat: no-repeat;
   height: 100vh;
   padding-inline: 120px;
