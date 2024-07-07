@@ -54,3 +54,8 @@ body {
   color: var(--color-gray-600);
   background-color:#16181D;
 }
+
+.home {
+  width: 1366px;
+  height: 2934px;
+}
