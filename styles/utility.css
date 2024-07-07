@@ -14,7 +14,7 @@
   & p:nth-child(4){
     font: var(--text-sm);
     margin-top: 20px;
-
+  }
 }
 
 .subtitle {
@@ -31,14 +31,16 @@
 
 .profile {
   margin-bottom: 56px;
-position: relative;
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+  margin-bottom: 58px;
 }
 
 .icon {
   position: absolute;
   right: 0;
   bottom: 0;
-}
 }
 
 .title-sm{
@@ -62,4 +64,14 @@ position: relative;
 .title-md {
   font: var(--text-title-md);
   color: var(--color-gray-600);
+}
+
+.subtitle-purple {
+  font: var(--text-subtitle);
+  color: var(--color-purple);
+}
+
+.text-md {
+  color: var(--text-md);
+  color: var(--color-gray-500);
 }

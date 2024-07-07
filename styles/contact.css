@@ -1,0 +1,85 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../assets/images/Background_Contacts_3.png);
+  background-position: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding-inline: 120px;
+  padding-block: 128px 200px;
+  gap: 48px;
+
+
+  & > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+    & > a{
+      text-decoration: none;
+
+      & > li:hover {
+        border: 1px solid var(--color-blue);
+        transform: scale(1.08);
+        transition: all 0.5s;
+
+
+        & > svg {
+          fill: var(--color-blue);
+        }
+      }
+
+
+      & > li {
+        width: 400px;
+        height: 68px;
+        display: flex;
+        align-items: center;
+        background-color: var(--color-gray-300);
+        border-radius: 8px;
+        justify-content: center;
+        gap: 12px;
+        transition: all 0.5s;
+        border: 1px solid transparent;
+        
+        & > div {
+          display: block;
+          width: 288px;
+        }
+      }
+    }
+  }
+}
+
+
+.icon-contact {
+  width: 28px;
+  height: 28px;
+}
+
+.maven-medium {
+  font: var(--text-sm);
+  color: var(--color-gray-500);
+}
+
+.blue {
+  color: var(--color-blue);
+}
+
+.maven-md {
+  font: var(--text-md);
+  color: var(--color-gray-500);
+}
+
+.text-sm-400 {
+  font: var(--text-sm);
+  color: var(--color-gray-400);
+}
+
+.gap-8 {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}

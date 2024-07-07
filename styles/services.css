@@ -1,0 +1,44 @@
+.services {
+  background-color: var(--color-gray-100);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-block: 88px 120px;
+  padding-inline: 120px;
+  gap: 56px;
+
+  & > ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    column-gap: 24px;
+
+    & > li {
+      display: flex;
+      flex-direction: column;
+      border: solid 1px var(--color-gray-200);
+      border-radius: 12px;
+      width: 280px;
+      height: 155px;
+      gap: 20px;
+      justify-content: center;
+      padding: 20px;
+
+      & > span {
+        width: 240px;
+        height: 47px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+    }
+  }
+}
+
+.svg {
+  width: 48px;
+  height: 48px;
+}
